@@ -1,5 +1,13 @@
 function firstChar(text) {
   // your code here
+	for(let i=0; i<text.length; i++){
+		if(text.charAt[i]==' '){
+			continue;
+		}else{
+			return text.charAt[i];
+		}
+	}
+	return ' ';
 }
 
 // Do not change the code below
